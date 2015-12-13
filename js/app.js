@@ -28,6 +28,7 @@ var allFeeds = [
  * function when the API is loaded.
  */
 function init() {
+    var entriesLen;
     // Load the first feed we've defined (index of 0).
     loadFeed(0);
 }
@@ -54,8 +55,9 @@ function init() {
                  var container = $('.feed'),
                      title = $('.header-title'),
                      entries = result.feed.entries,
-                     entriesLen = entries.length,
                      entryTemplate = Handlebars.compile($('.tpl-entry').html());
+
+                 entriesLen = entries.length;
 
                  title.html(feedName);   // Set the header text
                  container.empty();      // Empty out all previous entries
