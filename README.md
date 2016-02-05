@@ -21,6 +21,6 @@ This project was done as part of Udacity's Front-End Web Developer Nanodegree, a
 
 ## How to run the application
 
-Open index.html. The application will open and in the bottom part of the screen it could be seen a Jasmine message.The message should be say "7 specs, 0 failures" and it lists all the specs.
+Open index.html. The application will open and in the bottom part of the screen it could be seen a Jasmine message.The message says "7 specs, 0 failures" and it lists all the specs.
 
 
